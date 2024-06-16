@@ -1,106 +1,85 @@
-/* Estilos generales */
-
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background-color: navajowhite;
   }
   
-  /* Fondo de imagen */
-  
   .fondo-imagen {
-    background-image: url("/asset/hockey\ \ 1.jpg");/* URL de la imagen */
-    background-size: cover; /* Cubre la pantalla y mantiene la proporción */
-    background-position: center; /* Posiciona la imagen en el centro */
-    height: 70vh; /* Aproximadamente 70% de la altura de la pantalla */
-    display: flex; /* Permite centrar el contenido verticalmente */
-    justify-content: center; /* Centra el contenido horizontalmente */
-    align-items: center; /* Centra el contenido verticalmente */
-    text-align: center; /* Centra el texto horizontalmente */
-    color: white; /* Color de texto claro para que contraste con la imagen */
+    background-image: url("/asset/hockey\ \ 1.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    text-align: center; 
+    color: white; 
   }
   
   .fondo-imagen h1 {
-    font-size: 4rem; /* Tamaño de fuente grande para el título */
-    margin: 0; /* Elimina márgenes predeterminados */
+    font-size: 4rem; 
+    margin: 0; 
+    color:cornflowerblue;
   }
-  
-  /* Sección principal */
-  
+
   .contenedor-seccion {
-    width: 80%; /* Aproximadamente 80% del ancho de la pantalla */
-    margin: 0 auto; /* Centra la sección horizontalmente */
+    width: 80%;
+    margin: 0 auto;
     padding: 20px;
-    background-color: white; /* Color de fondo blanco */
+    background-color: rgb(197, 43, 43);
   }
   
   p{
     position: relative;
-    left: 667px;
+    left: 500px;
+    color:cornflowerblue;
+    font-size:x-large;
   }
   
   .logo-seccion {
-    float: right; /* Mueve el logo a la derecha */
+    float: right; 
     margin-top: 20px;
   }
   
-  /* Menú lateral */
-  
+  a{
+    text-decoration: none;
+    display: block;
+    top: 2px;
+    left: -13px;
+    padding: 109px;
+  }
   .menu-lateral {
-    position: fixed; /* Posicionamiento fijo para que el menú se quede en la pantalla */
-    top: 0; /* Posiciona en la parte superior */
-    left: 0; /* Posiciona a la izquierda */
-    width: 20%; /* Ancho del menú */
-    height: 100vh; /* Altura del menú (toda la pantalla) */
-    background-color: #f2f2f2; /* Color de fondo gris claro */
+    position: fixed;
+    width: 20%; 
+    height: 100vh; 
+    background-color: #f2f2f2;
     padding: 20px;
-  }
-  
-  .boton-menu {
-    display: block; /* Ocupa todo el ancho disponible */
-    margin-bottom: 10px; /* Margen inferior entre botones */
-    padding: 10px 20px; /* Padding para el texto */
-    text-decoration: none; /* Elimina la decoración por defecto */
-    color: #333; /* Color de texto negro */
-  }
-  
-  .boton-menu:hover { /* Efecto hover para el botón */
-    background-color: #eee;
-  }
-  
- 
-
-  #home {
-   position:absolute;
-  }
-
-  #about {
     position: relative;
     top: 145px;
     right: 7px;
-  }
-
-  #contact {
-    position: relative;
-    top:358px;
-    right: 11px;
-  }
-
-  .titulo-menu,
-  .subtitulo-menu {
-    margin-bottom: 5px; /* Margen inferior entre títulos */
+    background-color: navajowhite;
   }
  
   img{
     position: relative;
-    left: 86px;
+    left: 22px;
     top: -180px;
     width: 93px;
   }
   
-  h5{
-    margin-bottom: 5px;
+h5{
     position: relative;
-    left: 810px;
-    top: 106px;
-  }
+    left: 516px;
+    top: -815px;
+    padding: -27px;
+    font-size: x-large;
+}
+h4{
+    position: relative;
+    left: 513px;
+    top: -818px;
+    padding: 112px;
+    font-size: medium;
+    display: inline;
+}
