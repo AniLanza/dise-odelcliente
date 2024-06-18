@@ -92,7 +92,8 @@ h4{
     top: -488px;
     padding: 112px;
     font-size: medium;
-    display: inline;
+    display: inline-block;
+    align-content: center;
 }
 
 .container-menu{
